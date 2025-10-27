@@ -1,0 +1,1 @@
+show_debug_message((InvSearch(id, 1)) != -1);
