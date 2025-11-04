@@ -1,19 +1,19 @@
 {
   "$GMObject":"",
-  "%Name":"btnSound",
+  "%Name":"btnEditDeck",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"btnSound",
+  "name":"btnEditDeck",
   "overriddenProperties":[],
   "parent":{
     "name":"Buttons",
     "path":"folders/Objects/Buttons.yy",
   },
   "parentObjectId":{
-    "name":"btnToggle",
-    "path":"objects/btnToggle/btnToggle.yy",
+    "name":"btnParent",
+    "path":"objects/btnParent/btnParent.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
@@ -28,13 +28,15 @@
   "physicsShape":1,
   "physicsShapePoints":[],
   "physicsStartAwake":true,
-  "properties":[],
+  "properties":[
+    {"$GMObjectProperty":"v2","%Name":"RoomVal","filters":[],"listItems":[],"multiselect":false,"name":"RoomVal","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"","varType":5,},
+  ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sprToggle",
-    "path":"sprites/sprToggle/sprToggle.yy",
+    "name":"sprMakeDeckButton",
+    "path":"sprites/sprMakeDeckButton/sprMakeDeckButton.yy",
   },
   "spriteMaskId":null,
   "visible":true,

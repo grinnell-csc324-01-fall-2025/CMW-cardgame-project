@@ -7,3 +7,6 @@ function saveDeck(roomDeck){
 
 global.deckData.names = ["", "", ""];
 
+global.cardData = {};
+
+global.cardData.cardInfo = [];

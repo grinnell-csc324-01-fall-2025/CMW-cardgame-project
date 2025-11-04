@@ -1,19 +1,21 @@
 {
   "$GMObject":"",
-  "%Name":"btnSound",
+  "%Name":"btnSettings",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"btnSound",
-  "overriddenProperties":[],
+  "name":"btnSettings",
+  "overriddenProperties":[
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"btnParent","path":"objects/btnParent/btnParent.yy",},"propertyId":{"name":"ButtonText","path":"objects/btnParent/btnParent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Settings",},
+  ],
   "parent":{
     "name":"Buttons",
     "path":"folders/Objects/Buttons.yy",
   },
   "parentObjectId":{
-    "name":"btnToggle",
-    "path":"objects/btnToggle/btnToggle.yy",
+    "name":"btnParent",
+    "path":"objects/btnParent/btnParent.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
@@ -33,8 +35,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sprToggle",
-    "path":"sprites/sprToggle/sprToggle.yy",
+    "name":"sprBWButton",
+    "path":"sprites/sprBWButton/sprBWButton.yy",
   },
   "spriteMaskId":null,
   "visible":true,
