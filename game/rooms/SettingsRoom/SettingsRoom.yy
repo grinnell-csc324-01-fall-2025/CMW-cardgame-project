@@ -8,7 +8,6 @@
   "instanceCreationOrder":[
     {"name":"inst_1C122086","path":"rooms/SettingsRoom/SettingsRoom.yy",},
     {"name":"inst_27A40963","path":"rooms/SettingsRoom/SettingsRoom.yy",},
-    {"name":"inst_489B4EDD","path":"rooms/SettingsRoom/SettingsRoom.yy",},
     {"name":"inst_427ED766","path":"rooms/SettingsRoom/SettingsRoom.yy",},
     {"name":"inst_2A8EE95D","path":"rooms/SettingsRoom/SettingsRoom.yy",},
   ],
@@ -19,7 +18,6 @@
         {"$GMRInstance":"v2","%Name":"inst_27A40963","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_27A40963","objectId":{"name":"MainTitle","path":"objects/MainTitle/MainTitle.yy",},"properties":[
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"TitleParent","path":"objects/TitleParent/TitleParent.yy",},"propertyId":{"name":"TitleText","path":"objects/TitleParent/TitleParent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"SETTINGS",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":704.0,"y":160.0,},
-        {"$GMRInstance":"v2","%Name":"inst_489B4EDD","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_489B4EDD","objectId":{"name":"ToggleButton","path":"objects/ToggleButton/ToggleButton.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":512.0,"y":416.0,},
         {"$GMRInstance":"v2","%Name":"inst_427ED766","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_427ED766","objectId":{"name":"btnSound","path":"objects/btnSound/btnSound.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":512.0,"y":320.0,},
         {"$GMRInstance":"v2","%Name":"inst_2A8EE95D","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2A8EE95D","objectId":{"name":"tTxtParent","path":"objects/tTxtParent/tTxtParent.yy",},"properties":[
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"tTxtParent","path":"objects/tTxtParent/tTxtParent.yy",},"propertyId":{"name":"Text","path":"objects/tTxtParent/tTxtParent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Mute Music",},

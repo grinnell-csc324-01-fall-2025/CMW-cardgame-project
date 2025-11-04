@@ -1,0 +1,1 @@
+Text = global.deckData.names[0];

@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"PlayDeckScr",
+  "%Name":"GlobalsScr",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"PlayDeckScr",
+  "name":"GlobalsScr",
   "parent":{
     "name":"Scripts",
     "path":"folders/Scripts.yy",

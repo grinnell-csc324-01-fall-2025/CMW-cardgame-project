@@ -11,8 +11,8 @@
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"ButtonParent","path":"objects/ButtonParent/ButtonParent.yy",},"propertyId":{"name":"ButtonText","path":"objects/ButtonParent/ButtonParent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Decks",},
   ],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Buttons",
+    "path":"folders/Objects/Buttons.yy",
   },
   "parentObjectId":{
     "name":"ButtonParent",

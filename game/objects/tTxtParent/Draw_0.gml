@@ -6,7 +6,7 @@ draw_set_font(TxtFont);
 draw_set_halign(fa_center);
 draw_set_valign(fa_middle);
 
-draw_text(x, y + 16, Text); //magic number here is arbitrary, just looks good in this case
+draw_text(x, y + 16, Text);	//magic number here is arbitrary, just looks good in this case
 
 //Reset text for next use
 draw_set_halign(fa_left);
