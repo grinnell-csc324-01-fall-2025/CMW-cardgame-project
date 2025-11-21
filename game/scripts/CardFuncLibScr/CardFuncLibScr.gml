@@ -79,5 +79,43 @@ function cheatValChange(_player, val, type) {
 	}
 }
 
+function addValChange(_player, val, type) {
+	switch (type) {
+		case rock:
+			_player.rockAdd += val;
+		break;
+		
+		case scissor:
+			_player.scissorAdd += val;
+		break;
+		
+		case paper:
+			_player.paperAdd += val;
+		break;
+		
+		default:
+			show_debug_message("we f'd up");
+	}
+}
+
+function multValChange(_player, val, type) {
+	switch (type) {
+		case rock:
+			_player.rockMult += val;
+		break;
+		
+		case scissor:
+			_player.scissorMult += val;
+		break;
+		
+		case paper:
+			_player.paperMult += val;
+		break;
+		
+		default:
+			show_debug_message("we f'd up");
+	}
+}
+
 
 
