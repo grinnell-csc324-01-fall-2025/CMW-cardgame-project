@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"CardFuncLibScr",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"CardFuncLibScr",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
