@@ -31,7 +31,9 @@
     {"$GMFolder":"","%Name":"Timelines","folderPath":"folders/Timelines.yy","name":"Timelines","resourceType":"GMFolder","resourceVersion":"2.0",},
   ],
   "ForcedPrefabProjectReferences":[],
-  "IncludedFiles":[],
+  "IncludedFiles":[
+    {"$GMIncludedFile":"","%Name":"cardData.txt","CopyToMask":-1,"filePath":"datafiles","name":"cardData.txt","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
+  ],
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
@@ -57,6 +59,7 @@
     {"id":{"name":"oCardDataWizard","path":"objects/oCardDataWizard/oCardDataWizard.yy",},},
     {"id":{"name":"oCardFocus","path":"objects/oCardFocus/oCardFocus.yy",},},
     {"id":{"name":"oDragNDrop","path":"objects/oDragNDrop/oDragNDrop.yy",},},
+    {"id":{"name":"oGameController","path":"objects/oGameController/oGameController.yy",},},
     {"id":{"name":"oInv","path":"objects/oInv/oInv.yy",},},
     {"id":{"name":"oMainTitle","path":"objects/oMainTitle/oMainTitle.yy",},},
     {"id":{"name":"oSoundCtrl","path":"objects/oSoundCtrl/oSoundCtrl.yy",},},

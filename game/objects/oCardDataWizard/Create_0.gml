@@ -1,5 +1,5 @@
-fileName = get_open_filename("text", "C:\\Users\\wills\\GameMakerProjects\\GroupProject\\game\\notes\\cardData");
-fileId = file_text_open_read(fileName);
+//fileName = get_open_filename("text", "C:\\Users\\wills\\GameMakerProjects\\GroupProject\\game\\notes\\cardData");
+fileId = file_text_open_read("cardData.txt");
 //blow your shit off smooth you damned machine
 if(fileId < 0) {
 	show_debug_message("Error! File not found!");
