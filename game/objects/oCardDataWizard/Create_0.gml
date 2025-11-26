@@ -29,3 +29,5 @@ while(!file_text_eof(fileId)) {
 	var newCard = new card(dataArr[0], dataArr[1], dataArr[2], dataArr[3], dataArr[4], dataArr[5], dataArr[6]);
 	array_push(global.cardData.cardInfo, newCard);
 }
+
+//This is a test thing to make sure stuff isn't broken

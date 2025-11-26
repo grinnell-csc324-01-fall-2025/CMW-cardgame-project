@@ -11,15 +11,15 @@ if(hasFocus) {
 	}
 	
 	if(keyboard_check_pressed(vk_backspace)) {
-		inputString = string_delete(inputString, string_length(inputString), 1);
+		inputString = string_delete(inputString, string_length(inputString) - 1, 1);
 		keyboard_string = "";
 		delete_timer = -4;
 	}
 	
 	if(keyboard_check(vk_enter)) {
 		hasFocus = false;
-		nameString = inputString;
-		global.deckData.names[namesPos] = inputString;
+		ipString = inputString;
+		global.USR_IP = inputString;
 		keyboard_string = "";
 	}
 	
