@@ -34,6 +34,7 @@
     {"name":"btnToggle","order":7,"path":"objects/btnToggle/btnToggle.yy",},
     {"name":"oCardDataWizard","order":4,"path":"objects/oCardDataWizard/oCardDataWizard.yy",},
     {"name":"oDragNDrop","order":1,"path":"objects/oDragNDrop/oDragNDrop.yy",},
+    {"name":"oGameController","order":5,"path":"objects/oGameController/oGameController.yy",},
     {"name":"oInv","order":2,"path":"objects/oInv/oInv.yy",},
     {"name":"oMainTitle","order":11,"path":"objects/oMainTitle/oMainTitle.yy",},
     {"name":"oSoundCtrl","order":3,"path":"objects/oSoundCtrl/oSoundCtrl.yy",},
