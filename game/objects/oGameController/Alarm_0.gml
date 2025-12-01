@@ -7,9 +7,6 @@
 //no card was played, or the played card's mana cost is too high to be played, it fizzles
 //and the other card is evaluated.
 
-p1Input = false;
-p2Input = false;
-
 for(i = 0; i < 3; i++) {
 	if((p1Cards[i].type == "rock" && p2Cards[i].type == "scissors") || // rock beats scissors
        (p1Cards[i].type == "scissors" && p2Cards[i].type == "paper") || // paper beats rock  
@@ -23,3 +20,5 @@ for(i = 0; i < 3; i++) {
 		//nothing ever happens	
 	}
 }
+
+alarm[11] = 30;

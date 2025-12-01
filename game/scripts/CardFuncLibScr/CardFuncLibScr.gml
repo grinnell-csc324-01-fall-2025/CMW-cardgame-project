@@ -15,26 +15,27 @@ function player(_name) constructor {
 	paperMult = 1;
 }
 
-function attack(_player, dmg, cardType){
+//I hope this is the first thing you see and if it is, fix all the cases so they are strings as below
+function attack(_player, dmg, cType){
 	var dmgVal = dmg;
-	switch (cardType) {
-		case rock:
+	switch (cType) {
+		case "rock":
 			dmgVal += Add;
 			dmgVal *= Mult;
 		break;
 		
-		case scissor:
+		case "scissor":
 			dmgVal += scissorAdd;
 			dmgVal *= scissorMult;
 		break;
 		
-		case paper:
+		case "paper":
 			dmgVal += paperAdd;
 			dmgVal *= paperMult;
 		break;
 		
 		default:
-			show_debug_message("we fucked up");
+			show_debug_message("i mess it up");
 	}
 	
 	if(immunity) {
@@ -61,60 +62,64 @@ function heal(_player, healing) {
 	_player.hp += healing;
 }
 
-function cheatValChange(_player, val, type) {
-	switch (type) {
-		case rock:
+function giveImmunity(_player) {
+	_player.immunity = true;
+}
+
+function cheatValChange(_player, val, cType) {
+	switch (cType) {
+		case "rock":
 			_player.rockCheat += val;
 		break;
 		
-		case scissor:
+		case "scissor":
 			_player.scissorCheat += val;
 		break;
 		
-		case paper:
+		case "paper":
 			_player.paperCheat += val;
 		break;
 		
 		default:
-			show_debug_message("we f'd up");
+			show_debug_message("i mess it up");
 	}
 }
 
-function addValChange(_player, val, type) {
-	switch (type) {
-		case rock:
+function addValChange(_player, val, cType) {
+	switch (cType) {
+		case "rock":
 			_player.rockAdd += val;
 		break;
 		
-		case scissor:
+		case "scissor":
 			_player.scissorAdd += val;
 		break;
 		
-		case paper:
+		case "paper":
 			_player.paperAdd += val;
 		break;
 		
 		default:
-			show_debug_message("we f'd up");
+			show_debug_message("i mess it up");
 	}
 }
 
-function multValChange(_player, val, type) {
-	switch (type) {
-		case rock:
+function multValChange(_player, val, cType) {
+	switch (cType) {
+		case "rock":
 			_player.rockMult += val;
 		break;
 		
-		case scissor:
+		case "scissor":
 			_player.scissorMult += val;
 		break;
 		
-		case paper:
+		case "paper":
 			_player.paperMult += val;
 		break;
 		
 		default:
-			show_debug_message("we f'd up");
+			show_debug_message("i mess it up");
 	}
 }
 
