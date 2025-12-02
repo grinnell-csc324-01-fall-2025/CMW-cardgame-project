@@ -2,7 +2,6 @@ function player(_name) constructor {
 	name = _name;
 	hp = 20;
 	shield = 0;
-	mana = 3;
 	immunity = false;
 	rockCheat = 0;
 	scissorCheat = 0;
@@ -117,4 +116,6 @@ function multValChange(_player, val, type) {
 			show_debug_message("we f'd up");
 	}
 }
+
+
 

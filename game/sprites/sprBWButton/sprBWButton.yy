@@ -1,6 +1,10 @@
 {
   "$GMSprite":"v2",
+<<<<<<< HEAD:game/sprites/BWButton/BWButton.yy
+  "%Name":"BWButton",
+=======
   "%Name":"sprBWButton",
+>>>>>>> 55c376a220aef0498e52b05c4ea9bcbee3159d96:game/sprites/sprBWButton/sprBWButton.yy
   "bboxMode":0,
   "bbox_bottom":63,
   "bbox_left":0,
@@ -33,13 +37,7 @@
     "resourceType":"GMNineSliceData",
     "resourceVersion":"2.0",
     "right":8,
-    "tileMode":[
-      0,
-      0,
-      0,
-      0,
-      0,
-    ],
+    "tileMode":[0,0,0,0,0,],
     "top":6,
   },
   "origin":4,
@@ -89,9 +87,13 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
+<<<<<<< HEAD:game/sprites/BWButton/BWButton.yy
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"31f0ad2c-c472-4064-807a-15a126c3f0ef","path":"sprites/BWButton/BWButton.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"f96d138e-d4e8-4f47-b203-8cf801fce78f","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+=======
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"31f0ad2c-c472-4064-807a-15a126c3f0ef","path":"sprites/sprBWButton/sprBWButton.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"f96d138e-d4e8-4f47-b203-8cf801fce78f","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+>>>>>>> 55c376a220aef0498e52b05c4ea9bcbee3159d96:game/sprites/sprBWButton/sprBWButton.yy
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

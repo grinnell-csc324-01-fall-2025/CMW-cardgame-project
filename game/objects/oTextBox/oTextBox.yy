@@ -37,8 +37,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sprTxtBox",
-    "path":"sprites/sprTxtBox/sprTxtBox.yy",
+    "name":"spTxtBox",
+    "path":"sprites/spTxtBox/spTxtBox.yy",
   },
   "spriteMaskId":null,
   "visible":true,

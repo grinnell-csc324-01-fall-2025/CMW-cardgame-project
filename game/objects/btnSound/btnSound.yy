@@ -12,8 +12,8 @@
     "path":"folders/Objects/Buttons.yy",
   },
   "parentObjectId":{
-    "name":"btnToggle",
-    "path":"objects/btnToggle/btnToggle.yy",
+    "name":"ToggleButton",
+    "path":"objects/ToggleButton/ToggleButton.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sprToggle",
-    "path":"sprites/sprToggle/sprToggle.yy",
+    "name":"ToggleSpr",
+    "path":"sprites/ToggleSpr/ToggleSpr.yy",
   },
   "spriteMaskId":null,
   "visible":true,

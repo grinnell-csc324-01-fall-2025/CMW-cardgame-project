@@ -1,6 +1,10 @@
 {
   "$GMSprite":"v2",
+<<<<<<< HEAD:game/sprites/MakeDeckButtonSpr/MakeDeckButtonSpr.yy
+  "%Name":"MakeDeckButtonSpr",
+=======
   "%Name":"sprMakeDeckButton",
+>>>>>>> 55c376a220aef0498e52b05c4ea9bcbee3159d96:game/sprites/sprMakeDeckButton/sprMakeDeckButton.yy
   "bboxMode":0,
   "bbox_bottom":199,
   "bbox_left":0,
@@ -70,9 +74,13 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
+<<<<<<< HEAD:game/sprites/MakeDeckButtonSpr/MakeDeckButtonSpr.yy
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"49acfa24-1b95-40be-ac66-cd5f5e7e3b3c","path":"sprites/MakeDeckButtonSpr/MakeDeckButtonSpr.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"1514cb44-5e9b-4ac5-aa4c-d6d0116ae188","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+=======
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"49acfa24-1b95-40be-ac66-cd5f5e7e3b3c","path":"sprites/sprMakeDeckButton/sprMakeDeckButton.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"1514cb44-5e9b-4ac5-aa4c-d6d0116ae188","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+>>>>>>> 55c376a220aef0498e52b05c4ea9bcbee3159d96:game/sprites/sprMakeDeckButton/sprMakeDeckButton.yy
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

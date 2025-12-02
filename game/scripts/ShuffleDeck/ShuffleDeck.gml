@@ -2,7 +2,6 @@ function ShuffleDeck(){
 	////generate a random number from randomized GML seed
 	var randomNum = random_get_seed();
 	
-	
 	/*
 	
 	write wht allows a turn, and other person take s turn''
