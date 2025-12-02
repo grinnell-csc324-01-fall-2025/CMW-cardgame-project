@@ -16,42 +16,42 @@ function player(_name) constructor {
 }
 
 //I hope this is the first thing you see and if it is, fix all the cases so they are strings as below
-function attack(_player, dmg, cType){
+function attack(_player, targetPlayer, dmg, cType){
 	var dmgVal = dmg;
 	switch (cType) {
 		case "rock":
-			dmgVal += Add;
-			dmgVal *= Mult;
+			dmgVal += _player.rockAdd;
+			dmgVal *= _player.rockMult;
 		break;
 		
 		case "scissor":
-			dmgVal += scissorAdd;
-			dmgVal *= scissorMult;
+			dmgVal += _player.scissorAdd;
+			dmgVal *= _player.scissorMult;
 		break;
 		
 		case "paper":
-			dmgVal += paperAdd;
-			dmgVal *= paperMult;
+			dmgVal += _player.paperAdd;
+			dmgVal *= _player.paperMult;
 		break;
 		
 		default:
 			show_debug_message("i mess it up");
 	}
 	
-	if(immunity) {
+	if(targetPlayer.immunity) {
 		dmgVal = 0;	
 	}
 	
-	if(_player.shield > 0) {
-		if(dmgVal > player.shield) {
-			dmgVal -= player.shield;
-			_player.shield = 0;
+	if(targetPlayer.shield > 0) {
+		if(dmgVal > targetPlayer.shield) {
+			dmgVal -= targetPlayer.shield;
+			targetPlayer.shield = 0;
 		} else {
-			_player.shield -= dmgVal;
+			targetPlayer.shield -= dmgVal;
 			dmgVal = 0;
 		}
 	}
-	_player.hp -= dmgVal;
+	targetPlayer.hp -= dmgVal;
 }
 
 function defend(_player, shield) {

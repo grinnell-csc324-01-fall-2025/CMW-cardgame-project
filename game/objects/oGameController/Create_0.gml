@@ -21,7 +21,7 @@ inputCheck = function() {
 	if(p1Input && p2Input) {
 		p1Input = false;
 		p2Input = false;
-		alarm[11] = 30;	
+		alarm[0] = 30;	
 	}
 }
 
@@ -60,8 +60,8 @@ drawCard = function(_deck) {
 //Not sure if this works yet, but should call correctly functions from
 //CardFuncLib and apply them
 function playCard(_card, _player) {
-	for(i = 0; i < global.cardData.cardInfo.length; i++) {
-		if(global.cardData.cardInfo[i].cardId == _card) {
+	for(i = 0; i < array_length(global.cardData.cardInfo); i++) {
+		if(global.cardData.cardInfo[i] == _card) {
 			playedCard = global.cardData.cardInfo[i];
 			break;
 		} else {
@@ -70,7 +70,12 @@ function playCard(_card, _player) {
 	}
 	switch(playedCard.effect) {
 		case "attack":
-			attack(_player, _card.val, _card.cType);
+			if(_player == player_1) {
+				targetPlayer = player_2;
+			} else {
+				targetPlayer = player_1
+			}
+			attack(_player, targetPlayer, _card.val, _card.cType);
 		break;
 		
 		case "defend":
