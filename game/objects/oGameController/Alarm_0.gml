@@ -7,10 +7,7 @@
 //no card was played, or the played card's mana cost is too high to be played, it fizzles
 //and the other card is evaluated.
 
-p1Input = false;
-p2Input = false;
-
-for(i = 0; i < 3; i++) {
+/*for(i = 0; i < 3; i++) {
 	if((p1Cards[i].type == "rock" && p2Cards[i].type == "scissors") || // rock beats scissors
        (p1Cards[i].type == "scissors" && p2Cards[i].type == "paper") || // paper beats rock  
        (p1Cards[i].type == "paper" && p2Cards[i].type == "rock")) {
@@ -22,4 +19,12 @@ for(i = 0; i < 3; i++) {
 	} else {
 		//nothing ever happens	
 	}
+}*/
+for(var i = 0; i < 3; i++) {
+	curr = global.cardData.cardInfo[played.inv[i]];
+	playCard(curr, player_1);
 }
+
+show_debug_message(player_2.hp);
+
+alarm[11] = 30;

@@ -15,42 +15,43 @@ function player(_name) constructor {
 	paperMult = 1;
 }
 
-function attack(_player, dmg, cardType){
+//I hope this is the first thing you see and if it is, fix all the cases so they are strings as below
+function attack(_player, targetPlayer, dmg, cType){
 	var dmgVal = dmg;
-	switch (cardType) {
-		case rock:
-			dmgVal += Add;
-			dmgVal *= Mult;
+	switch (cType) {
+		case "rock":
+			dmgVal += _player.rockAdd;
+			dmgVal *= _player.rockMult;
 		break;
 		
-		case scissor:
-			dmgVal += scissorAdd;
-			dmgVal *= scissorMult;
+		case "scissor":
+			dmgVal += _player.scissorAdd;
+			dmgVal *= _player.scissorMult;
 		break;
 		
-		case paper:
-			dmgVal += paperAdd;
-			dmgVal *= paperMult;
+		case "paper":
+			dmgVal += _player.paperAdd;
+			dmgVal *= _player.paperMult;
 		break;
 		
 		default:
-			show_debug_message("we fucked up");
+			show_debug_message("i mess it up");
 	}
 	
-	if(immunity) {
+	if(targetPlayer.immunity) {
 		dmgVal = 0;	
 	}
 	
-	if(_player.shield > 0) {
-		if(dmgVal > player.shield) {
-			dmgVal -= player.shield;
-			_player.shield = 0;
+	if(targetPlayer.shield > 0) {
+		if(dmgVal > targetPlayer.shield) {
+			dmgVal -= targetPlayer.shield;
+			targetPlayer.shield = 0;
 		} else {
-			_player.shield -= dmgVal;
+			targetPlayer.shield -= dmgVal;
 			dmgVal = 0;
 		}
 	}
-	_player.hp -= dmgVal;
+	targetPlayer.hp -= dmgVal;
 }
 
 function defend(_player, shield) {
@@ -61,60 +62,64 @@ function heal(_player, healing) {
 	_player.hp += healing;
 }
 
-function cheatValChange(_player, val, type) {
-	switch (type) {
-		case rock:
+function giveImmunity(_player) {
+	_player.immunity = true;
+}
+
+function cheatValChange(_player, val, cType) {
+	switch (cType) {
+		case "rock":
 			_player.rockCheat += val;
 		break;
 		
-		case scissor:
+		case "scissor":
 			_player.scissorCheat += val;
 		break;
 		
-		case paper:
+		case "paper":
 			_player.paperCheat += val;
 		break;
 		
 		default:
-			show_debug_message("we f'd up");
+			show_debug_message("i mess it up");
 	}
 }
 
-function addValChange(_player, val, type) {
-	switch (type) {
-		case rock:
+function addValChange(_player, val, cType) {
+	switch (cType) {
+		case "rock":
 			_player.rockAdd += val;
 		break;
 		
-		case scissor:
+		case "scissor":
 			_player.scissorAdd += val;
 		break;
 		
-		case paper:
+		case "paper":
 			_player.paperAdd += val;
 		break;
 		
 		default:
-			show_debug_message("we f'd up");
+			show_debug_message("i mess it up");
 	}
 }
 
-function multValChange(_player, val, type) {
-	switch (type) {
-		case rock:
+function multValChange(_player, val, cType) {
+	switch (cType) {
+		case "rock":
 			_player.rockMult += val;
 		break;
 		
-		case scissor:
+		case "scissor":
 			_player.scissorMult += val;
 		break;
 		
-		case paper:
+		case "paper":
 			_player.paperMult += val;
 		break;
 		
 		default:
-			show_debug_message("we f'd up");
+			show_debug_message("i mess it up");
 	}
 }
 

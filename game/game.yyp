@@ -46,6 +46,7 @@
     {"id":{"name":"TxtFont","path":"fonts/TxtFont/TxtFont.yy",},},
     {"id":{"name":"cardData","path":"notes/cardData/cardData.yy",},},
     {"id":{"name":"MagicNumbers","path":"notes/MagicNumbers/MagicNumbers.yy",},},
+    {"id":{"name":"btnCommit","path":"objects/btnCommit/btnCommit.yy",},},
     {"id":{"name":"btnDecks","path":"objects/btnDecks/btnDecks.yy",},},
     {"id":{"name":"btnEditDeck","path":"objects/btnEditDeck/btnEditDeck.yy",},},
     {"id":{"name":"btnHome","path":"objects/btnHome/btnHome.yy",},},
