@@ -21,8 +21,10 @@
 	}
 }*/
 for(var i = 0; i < 3; i++) {
-	curr = global.cardData.cardInfo[played.inv[i]];
-	playCard(curr, player_1);
+	if (played.inv[i] != -1) {
+		curr = global.cardData.cardInfo[played.inv[i]];
+		playCard(curr, player_1);
+	}
 }
 
 show_debug_message(player_2.hp);
