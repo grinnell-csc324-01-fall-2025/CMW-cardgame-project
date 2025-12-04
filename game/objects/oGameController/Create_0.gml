@@ -39,12 +39,12 @@ isEmpty = function(arr) {
 drawCard = function(_deck) {
 	//deck = array_create(8, -1);
 	var added = false;
-	while(!added) {
+	while(!added) { // if you go to a spot that has been pulled out of the deck, it goes to -1. this checks for 
 		if(isEmpty(deck)) {
 			addCards(deck);
 			for (var j = 0; j < array_length(deck); j++) {
 				if(array_contains(hand.inv, deck[j])) {
-					deck[j] = -1;	
+					deck[j] = -1; // the index is -1 so we dont draw it again
 				}
 			}
 		}
@@ -52,7 +52,7 @@ drawCard = function(_deck) {
 		if(_deck[idx] != -1) {
 			InvAdd(hand, _deck[idx]);
 			_deck[idx] = -1;
-			added = true;
+			added = true; // this checks for if the card has been drawn, and redraws for valid cardu
 		}
 	}
 }
