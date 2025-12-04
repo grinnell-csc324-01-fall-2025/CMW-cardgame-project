@@ -45,6 +45,7 @@
     {"name":"EditDeckRoom_1","order":5,"path":"rooms/EditDeckRoom_1/EditDeckRoom_1.yy",},
     {"name":"EditDeckRoom_2","order":6,"path":"rooms/EditDeckRoom_2/EditDeckRoom_2.yy",},
     {"name":"EditDeckRoom","order":4,"path":"rooms/EditDeckRoom/EditDeckRoom.yy",},
+    {"name":"GameRoom_Saved","order":7,"path":"rooms/GameRoom_Saved/GameRoom_Saved.yy",},
     {"name":"MenuRoom","order":1,"path":"rooms/MenuRoom/MenuRoom.yy",},
     {"name":"SettingsRoom","order":2,"path":"rooms/SettingsRoom/SettingsRoom.yy",},
     {"name":"CardFuncLibScr","order":2,"path":"scripts/CardFuncLibScr/CardFuncLibScr.yy",},

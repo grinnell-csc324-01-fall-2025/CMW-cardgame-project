@@ -71,6 +71,7 @@
     {"id":{"name":"EditDeckRoom_1","path":"rooms/EditDeckRoom_1/EditDeckRoom_1.yy",},},
     {"id":{"name":"EditDeckRoom_2","path":"rooms/EditDeckRoom_2/EditDeckRoom_2.yy",},},
     {"id":{"name":"EditDeckRoom","path":"rooms/EditDeckRoom/EditDeckRoom.yy",},},
+    {"id":{"name":"GameRoom_Saved","path":"rooms/GameRoom_Saved/GameRoom_Saved.yy",},},
     {"id":{"name":"GameRoom","path":"rooms/GameRoom/GameRoom.yy",},},
     {"id":{"name":"MenuRoom","path":"rooms/MenuRoom/MenuRoom.yy",},},
     {"id":{"name":"SettingsRoom","path":"rooms/SettingsRoom/SettingsRoom.yy",},},
@@ -97,6 +98,7 @@
     {"roomId":{"name":"EditDeckRoom","path":"rooms/EditDeckRoom/EditDeckRoom.yy",},},
     {"roomId":{"name":"EditDeckRoom_1","path":"rooms/EditDeckRoom_1/EditDeckRoom_1.yy",},},
     {"roomId":{"name":"EditDeckRoom_2","path":"rooms/EditDeckRoom_2/EditDeckRoom_2.yy",},},
+    {"roomId":{"name":"GameRoom_Saved","path":"rooms/GameRoom_Saved/GameRoom_Saved.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

@@ -13,6 +13,10 @@ function player(_name) constructor {
 	scissorMult = 1;
 	paperAdd = 0;
 	paperMult = 1;
+	
+	changeHP = function(newHP) {
+		hp = newHP;
+	}
 }
 
 //I hope this is the first thing you see and if it is, fix all the cases so they are strings as below
