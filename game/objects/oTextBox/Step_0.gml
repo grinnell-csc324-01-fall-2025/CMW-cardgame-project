@@ -11,7 +11,7 @@ if(hasFocus) {
 	}
 	
 	if(keyboard_check_pressed(vk_backspace)) {
-		inputString = string_delete(inputString, string_length(inputString) - 1, 1);
+		inputString = string_delete(inputString, string_length(inputString), 1);
 		keyboard_string = "";
 		delete_timer = -4;
 	}
