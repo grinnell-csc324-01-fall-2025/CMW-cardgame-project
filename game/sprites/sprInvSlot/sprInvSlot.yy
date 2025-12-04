@@ -1,10 +1,6 @@
 {
   "$GMSprite":"v2",
-<<<<<<< HEAD:game/sprites/InvSlotSpr/InvSlotSpr.yy
-  "%Name":"InvSlotSpr",
-=======
   "%Name":"sprInvSlot",
->>>>>>> 55c376a220aef0498e52b05c4ea9bcbee3159d96:game/sprites/sprInvSlot/sprInvSlot.yy
   "bboxMode":0,
   "bbox_bottom":63,
   "bbox_left":0,
@@ -37,7 +33,13 @@
     "resourceType":"GMNineSliceData",
     "resourceVersion":"2.0",
     "right":0,
-    "tileMode":[0,0,0,0,0,],
+    "tileMode":[
+      0,
+      0,
+      0,
+      0,
+      0,
+    ],
     "top":0,
   },
   "origin":0,
@@ -87,13 +89,9 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-<<<<<<< HEAD:game/sprites/InvSlotSpr/InvSlotSpr.yy
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"e31f007c-8a31-4ba0-a239-52ae44fd4dfc","path":"sprites/InvSlotSpr/InvSlotSpr.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"d2d279a1-60dc-46cf-b839-7ed7f1be4eae","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-=======
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"e31f007c-8a31-4ba0-a239-52ae44fd4dfc","path":"sprites/sprInvSlot/sprInvSlot.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"d2d279a1-60dc-46cf-b839-7ed7f1be4eae","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
->>>>>>> 55c376a220aef0498e52b05c4ea9bcbee3159d96:game/sprites/sprInvSlot/sprInvSlot.yy
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

@@ -1,10 +1,6 @@
 {
   "$GMSprite":"v2",
-<<<<<<< HEAD:game/sprites/SlotOverSpr/SlotOverSpr.yy
-  "%Name":"SlotOverSpr",
-=======
   "%Name":"sprSlotOver",
->>>>>>> 55c376a220aef0498e52b05c4ea9bcbee3159d96:game/sprites/sprSlotOver/sprSlotOver.yy
   "bboxMode":0,
   "bbox_bottom":63,
   "bbox_left":0,
@@ -74,13 +70,9 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-<<<<<<< HEAD:game/sprites/SlotOverSpr/SlotOverSpr.yy
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"2d703e9b-64ed-4d5c-9256-f93505f99aa3","path":"sprites/SlotOverSpr/SlotOverSpr.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"f46978a2-6169-4cb0-ab60-7f10e7e00fc4","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-=======
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"2d703e9b-64ed-4d5c-9256-f93505f99aa3","path":"sprites/sprSlotOver/sprSlotOver.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"f46978a2-6169-4cb0-ab60-7f10e7e00fc4","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
->>>>>>> 55c376a220aef0498e52b05c4ea9bcbee3159d96:game/sprites/sprSlotOver/sprSlotOver.yy
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

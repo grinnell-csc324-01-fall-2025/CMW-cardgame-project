@@ -1,0 +1,88 @@
+default
+0
+null
+0
+description
+effect
+0
+^v^
+name2
+3
+type2
+2
+description2
+effect2
+1
+^v^
+Regular Scissors
+2
+scissor
+2
+Deals 2 damage to your opponent
+attack
+2
+^v^
+Loose Leaf
+1
+paper
+1
+Blocks 1 damage
+defend
+3
+^v^
+Boulder
+1
+rock
+2
+Deals 2 damage to your opponent
+attack
+4
+^v^
+Pebbles
+0
+rock
+1
+Deals 1 damage to your opponent
+attack
+5
+^v^
+Paper Cut
+1
+paper
+1
+Deals 1 damage to your opponent
+attack
+6
+^v^
+Great Wall of China
+5
+rock
+0
+Gives you damage immunity for one turn
+giveImmunity
+7
+^v^
+Safety Scissors
+1
+scissor
+1
+Deals 1 damage to your opponent
+attack
+8
+^v^
+Guillotine
+3
+scissor
+5
+Deals 5 damage to your opponent
+attack
+9
+^v^
+Unfiled Paperwork
+3
+paper
+0
+Removes an opponents immunity
+takeImmunity
+10
+^v^

@@ -1,10 +1,19 @@
 function InvSearch(rootObject, itemType) {
-	for (var i = 0; i < invSlots; i += 1) {
+	for (var i = 0; i < rootObject.invSlots; i++) {
 		if (rootObject.inv[i] == itemType) {
 			return(i);
 		}
 	}
 	return(-1);
+}
+
+function InvEmpty(rootObject) {
+	for (var i = 0; i < rootObject.invSlots; i++) {
+		if (rootObject.inv[i] != -1) {
+			return false;	
+		}
+	}
+	return true;
 }
 
 function InvRemove(rootObject, itemType) {
