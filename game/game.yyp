@@ -73,6 +73,7 @@
     {"id":{"name":"EditDeckRoom_1","path":"rooms/EditDeckRoom_1/EditDeckRoom_1.yy",},},
     {"id":{"name":"EditDeckRoom_2","path":"rooms/EditDeckRoom_2/EditDeckRoom_2.yy",},},
     {"id":{"name":"EditDeckRoom","path":"rooms/EditDeckRoom/EditDeckRoom.yy",},},
+    {"id":{"name":"GameRoom_Saved","path":"rooms/GameRoom_Saved/GameRoom_Saved.yy",},},
     {"id":{"name":"GameRoom","path":"rooms/GameRoom/GameRoom.yy",},},
     {"id":{"name":"MenuRoom","path":"rooms/MenuRoom/MenuRoom.yy",},},
     {"id":{"name":"ServerRoom","path":"rooms/ServerRoom/ServerRoom.yy",},},
@@ -108,6 +109,7 @@
     {"roomId":{"name":"EditDeckRoom_2","path":"rooms/EditDeckRoom_2/EditDeckRoom_2.yy",},},
     {"roomId":{"name":"BattleRoom","path":"rooms/BattleRoom/BattleRoom.yy",},},
     {"roomId":{"name":"ServerRoom","path":"rooms/ServerRoom/ServerRoom.yy",},},
+    {"roomId":{"name":"GameRoom_Saved","path":"rooms/GameRoom_Saved/GameRoom_Saved.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
