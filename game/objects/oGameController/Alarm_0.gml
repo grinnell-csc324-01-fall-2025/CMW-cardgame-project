@@ -22,7 +22,9 @@
 }
 */
 for(var i = 0; i < 3; i++) {
-	if (played.inv[i] != -1) {
+
+	if(played.inv[i] != -1) {
+
 		curr = global.cardData.cardInfo[played.inv[i]];
 		playCard(curr, player_1);
 	}
