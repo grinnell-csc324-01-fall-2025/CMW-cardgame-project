@@ -19,9 +19,14 @@
 	} else {
 		//nothing ever happens	
 	}
-}*/
+}
+*/
 for(var i = 0; i < 3; i++) {
+<<<<<<< HEAD
 	if(played.inv[i] != -1) {
+=======
+	if (played.inv[i] != -1) {
+>>>>>>> ea129069526a7377bfff255bf33c2cb2e45f6734
 		curr = global.cardData.cardInfo[played.inv[i]];
 		playCard(curr, player_1);
 	}
