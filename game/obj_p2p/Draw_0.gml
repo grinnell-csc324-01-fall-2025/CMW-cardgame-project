@@ -3,4 +3,7 @@ if (room == GameRoom) {
 	
 	draw_text(4,4, str);
 	
+	
+	
+	
 }
