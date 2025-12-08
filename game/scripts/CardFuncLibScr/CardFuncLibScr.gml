@@ -20,9 +20,9 @@ function player(_name) constructor {
 }
 
 //I hope this is the first thing you see and if it is, fix all the cases so they are strings as below
-function attack(_player, targetPlayer, dmg, cType){
+function attack(_player, targetPlayer, dmg, _cType){
 	var dmgVal = dmg;
-	switch (cType) {
+	switch (_cType) {
 		case "rock":
 			dmgVal += _player.rockAdd;
 			dmgVal *= _player.rockMult;
@@ -59,7 +59,7 @@ function attack(_player, targetPlayer, dmg, cType){
 }
 
 function defend(_player, shield) {
-	_player.shield += shield;	
+	_player.shield += shield;
 }
 
 function heal(_player, healing) {
@@ -70,18 +70,18 @@ function giveImmunity(_player) {
 	_player.immunity = true;
 }
 
-function cheatValChange(_player, val, cType) {
-	switch (cType) {
+function cheatValChange(_player, cheat, _cType) {
+	switch (_cType) {
 		case "rock":
-			_player.rockCheat += val;
+			_player.rockCheat += cheat;
 		break;
 		
 		case "scissor":
-			_player.scissorCheat += val;
+			_player.scissorCheat += cheat;
 		break;
 		
 		case "paper":
-			_player.paperCheat += val;
+			_player.paperCheat += cheat;
 		break;
 		
 		default:
@@ -89,18 +89,18 @@ function cheatValChange(_player, val, cType) {
 	}
 }
 
-function addValChange(_player, val, cType) {
-	switch (cType) {
+function addValChange(_player, _val, _cType) {
+	switch (_cType) {
 		case "rock":
-			_player.rockAdd += val;
+			_player.rockAdd += _val;
 		break;
 		
 		case "scissor":
-			_player.scissorAdd += val;
+			_player.scissorAdd += _val;
 		break;
 		
 		case "paper":
-			_player.paperAdd += val;
+			_player.paperAdd += _val;
 		break;
 		
 		default:
@@ -108,18 +108,18 @@ function addValChange(_player, val, cType) {
 	}
 }
 
-function multValChange(_player, val, cType) {
-	switch (cType) {
+function multValChange(_player, _val, _cType) {
+	switch (_cType) {
 		case "rock":
-			_player.rockMult += val;
+			_player.rockMult += _val;
 		break;
 		
 		case "scissor":
-			_player.scissorMult += val;
+			_player.scissorMult += _val;
 		break;
 		
 		case "paper":
-			_player.paperMult += val;
+			_player.paperMult += _val;
 		break;
 		
 		default:

@@ -11,13 +11,15 @@ if(fileId < 0) {
 //constructor for the cards, less obvious names purposes below
 //_val: value of the heal, damage, or shield, for buffs this should be 0
 //_effect: this should be a function call to something from the CardFuncLib
-function card_obj(_name, _cost, _cType, _val, _description, _effect, _cardId) constructor {
+function card_obj(_name, _cost, _cType, _val, _description, _effect, _bonus, _bonusVal, _cardId) constructor {
 	name = _name;
 	cost = real(_cost);
 	cType = _cType;
 	val = real(_val);
 	description = _description;
 	effect = _effect;
+	bonus = _bonus;
+	bonusVal = real(_bonusVal);
 	cardId = real(_cardId);
 }
 
@@ -30,7 +32,7 @@ while(!file_text_eof(fileId)) {
 		line = string_trim_end(file_text_readln(fileId));
 		array_push(dataArr, line);
 	}
-	var newCard = new card_obj(dataArr[0], dataArr[1], dataArr[2], dataArr[3], dataArr[4], dataArr[5], dataArr[6]);
+	var newCard = new card_obj(dataArr[0], dataArr[1], dataArr[2], dataArr[3], dataArr[4], dataArr[5], dataArr[6], dataArr[7], dataArr[8]);
 	array_push(global.cardData.cardInfo, newCard);
 }
 

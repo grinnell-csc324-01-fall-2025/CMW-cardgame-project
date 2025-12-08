@@ -66,37 +66,36 @@ drawCard = function(_deck, pHand) {
 	}
 }
 
-//Not sure if this works yet, but should call correctly functions from
-//CardFuncLib and apply them
-function playCard(_card, _player) {
-	for(i = 0; i < array_length(global.cardData.cardInfo); i++) {
-		if(global.cardData.cardInfo[i] == _card) {
-			playedCard = global.cardData.cardInfo[i];
-			break;
-		} else {
-			//playedCard = global.cardData.cardInfo[0];
-		}
-	}
-	if(playedCard.cost > _player.mana) {
+//Does work, should correctly call functions from CardFuncLib and apply them'''''''bvvvvvvvv
+function playCard(_card, _player, winner) {
+	if(_card.cost > _player.mana) {
 		//don't do anything
 	} else {
-		_player.mana -= playedCard.cost;
-		switch(playedCard.effect) {
+		_player.mana -= _card.cost;
+		cardEffects(_card, _player, _card.effect, _card.val);
+		if(winner) {
+			cardEffects(_card, _player, _card.bonus, _card.bonusVal);
+		}
+	}
+}
+
+function cardEffects(_card, _player, func, _val) {
+	switch(func) {
 			case "attack":
 				if(_player == player_1) {
 					targetPlayer = player_2;
 				} else {
-					targetPlayer = player_1
+					targetPlayer = player_1;
 				}
-				attack(_player, targetPlayer, _card.val, _card.cType);
+				attack(_player, targetPlayer, _val, _card.cType);
 			break;
 		
 			case "defend":
-				defend(_player, _card.val);
+				defend(_player, _val);
 			break;
 		
 			case "heal":
-				heal(_player, _card.val);
+				heal(_player, _val);
 			break;
 		
 			case "giveImmunity":
@@ -104,14 +103,13 @@ function playCard(_card, _player) {
 			break;
 		
 			case "addVal":
-				addValChange(_player, _card.val, _card.cType);
+				addValChange(_player, _val, _card.cType);
 			break;
 		
 			case "multVal":
-				multValChange(_player, _card.val, _card.cType);
+				multValChange(_player, _val, _card.cType);
 			break;
 		}
-	}
 }
 
 //Creates a timer that draws a card after a 45 frame delay, repeats 3 times
