@@ -39,7 +39,7 @@ _y2 += barh + 8;
 draw_sprite_stretched(sprBox, 0, _x2, _y2, barw, barh);
 draw_sprite_stretched_ext(sprBox, 1, _x2, _y2, mana_barw_2, barh, c_aqua, 0.6);
 
-draw_text(_x2 + barw /2, _y2 + barh /2, $"MANA {player_1.mana}");
+draw_text(_x2 + barw /2, _y2 + barh /2, $"MANA {player_2.mana}");
 
 // Player 1 Mana
 var mana_barw_1 = barw * (player_1.mana / 3); // -> needs to be changed for dynamic mana increase

@@ -13,6 +13,9 @@ for (var i = 0; i < played.invSlots; i++) {
 	played_op.inv[i] = -1;
 }
 
+player_1.mana = 3;
+player_2.mana = 3;
+
 for (var i = 0; i < 3; i++) {
 	time_source_start(myTimer);
 }
