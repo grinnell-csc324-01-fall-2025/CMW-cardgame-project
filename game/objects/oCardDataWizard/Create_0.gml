@@ -10,7 +10,9 @@ if(fileId < 0) {
 
 //constructor for the cards, less obvious names purposes below
 //_val: value of the heal, damage, or shield, for buffs this should be 0
-//_effect: this should be a function call to something from the CardFuncLib
+//_effect: this should be a function identifier to something from the CardFuncLib
+//_bonus: this is a function identifier to the same place but only fires if rps was won
+//_bonusVal: value to be used for the bonus function
 function card_obj(_name, _cost, _cType, _val, _description, _effect, _bonus, _bonusVal, _cardId) constructor {
 	name = _name;
 	cost = real(_cost);
