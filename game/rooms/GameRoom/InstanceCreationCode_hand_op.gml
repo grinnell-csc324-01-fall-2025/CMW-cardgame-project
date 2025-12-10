@@ -1,0 +1,1 @@
+invSlots = 5;
