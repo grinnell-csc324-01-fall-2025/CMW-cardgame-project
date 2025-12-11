@@ -19,6 +19,29 @@ function player(_name) constructor {
 	}
 }
 
+//need to decide if manacheat cards are cheap but expire at the end of a turn, or
+//more expensive but stay until next usage. Same with attack enhancements
+function manaCheat(_player, _card) {
+	var ret = _card.cost;
+	switch(_card.cType) {
+		case "rock":
+			ret -= _player.rockCheat;
+		break;
+		
+		case "scissor":
+			ret -= _player.scissorCheat;
+		break;
+		
+		case "paper":
+			ret -= _player.paperCheat;
+		break;
+		
+		default:
+			show_debug_message("i mess it up");
+	}
+	return ret;
+}
+
 //I hope this is the first thing you see and if it is, fix all the cases so they are strings as below
 function attack(_player, targetPlayer, dmg, _cType){
 	var dmgVal = dmg;
@@ -40,6 +63,7 @@ function attack(_player, targetPlayer, dmg, _cType){
 		
 		default:
 			show_debug_message("i mess it up");
+		break;
 	}
 	
 	if(targetPlayer.immunity) {
