@@ -4,14 +4,15 @@ null
 0
 description
 effect
+bonus
 0
 ^v^
 name2
 3
-type2
+scissor
 2
 description2
-effect2
+
 1
 ^v^
 Regular Scissors
