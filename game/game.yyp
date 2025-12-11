@@ -37,7 +37,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.14.0.207",
+    "IDEVersion":"2024.14.1.210",
   },
   "name":"game",
   "resources":[
@@ -89,6 +89,7 @@
     {"id":{"name":"sprBox","path":"sprites/sprBox/sprBox.yy",},},
     {"id":{"name":"sprBWButton","path":"sprites/sprBWButton/sprBWButton.yy",},},
     {"id":{"name":"sprCardSlot","path":"sprites/sprCardSlot/sprCardSlot.yy",},},
+    {"id":{"name":"sprInkBlot","path":"sprites/sprInkBlot/sprInkBlot.yy",},},
     {"id":{"name":"sprInvSlot","path":"sprites/sprInvSlot/sprInvSlot.yy",},},
     {"id":{"name":"sprMakeDeckButton","path":"sprites/sprMakeDeckButton/sprMakeDeckButton.yy",},},
     {"id":{"name":"sprShield","path":"sprites/sprShield/sprShield.yy",},},
