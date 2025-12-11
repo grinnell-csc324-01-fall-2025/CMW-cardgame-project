@@ -68,10 +68,11 @@ drawCard = function(_deck, pHand) {
 
 //Does work, should correctly call functions from CardFuncLib and apply them'''''''bvvvvvvvv
 function playCard(_card, _player, winner) {
-	if(_card.cost > _player.mana) {
+	var finalCost = manaCheat(_player, _card);
+	if(finalCost > _player.mana) {
 		//don't do anything
 	} else {
-		_player.mana -= _card.cost;
+		_player.mana -= finalCost;
 		cardEffects(_card, _player, _card.effect, _card.val);
 		if(winner) {
 			cardEffects(_card, _player, _card.bonus, _card.bonusVal);
