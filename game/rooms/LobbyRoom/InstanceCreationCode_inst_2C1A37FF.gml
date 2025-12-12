@@ -1,0 +1,1 @@
+location = ipData;//Change IP data to wherever you're storing the IP.

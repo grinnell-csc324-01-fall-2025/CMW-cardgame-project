@@ -81,13 +81,13 @@ function playCard(_card, _player, winner) {
 }
 
 function cardEffects(_card, _player, func, _val) {
+	if(_player == player_1) {
+		targetPlayer = player_2;
+	} else {
+		targetPlayer = player_1;
+	}
 	switch(func) {
 			case "attack":
-				if(_player == player_1) {
-					targetPlayer = player_2;
-				} else {
-					targetPlayer = player_1;
-				}
 				attack(_player, targetPlayer, _val, _card.cType);
 			break;
 		
@@ -102,6 +102,10 @@ function cardEffects(_card, _player, func, _val) {
 			case "giveImmunity":
 				giveImmunity(_player);
 			break;
+			
+			case "takeImmunity":
+				takeImmunity(targetPlayer);
+			break;
 		
 			case "addVal":
 				addValChange(_player, _val, _card.cType);
@@ -109,6 +113,14 @@ function cardEffects(_card, _player, func, _val) {
 		
 			case "multVal":
 				multValChange(_player, _val, _card.cType);
+			break;
+			
+			case "amp":
+				amp(_card, _val);
+			break;
+			
+			case "cheat":
+				cheatValChange(_player, _val, _card.cType);
 			break;
 		}
 }
@@ -122,5 +134,4 @@ myTimer = time_source_create(time_source_game, 45, time_source_units_frames, fun
 
 time_source_start(myTimer);
 
-//drawCard(deck);
 //Start on some code for saving decks, use oInv's for now, maybe change later
