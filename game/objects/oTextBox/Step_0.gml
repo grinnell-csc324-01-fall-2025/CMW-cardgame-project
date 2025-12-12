@@ -19,7 +19,7 @@ if(hasFocus) {
 	if(keyboard_check(vk_enter)) {
 		hasFocus = false;
 		nameString = inputString;
-		global.deckData.names[namesPos] = inputString;
+		location = inputString;
 		keyboard_string = "";
 	}
 	

@@ -1,89 +1,110 @@
-default
-0
-null
-0
-description
-effect
-bonus
-0
-^v^
-name2
+Chocolate Cake
 3
 scissor
+3
+Chocolate Cake: shields you for 3, | Bonus: heals 2 health, yummy cake!
+shield
+heal
 2
-description2
-
-1
+0
 ^v^
 Regular Scissors
 2
 scissor
 2
-Deals 2 damage to your opponent
+Regular Scissors: Deals 2 damage to your opponent, | Bonus: deals 2 more damage
+attack
 attack
 2
+1
 ^v^
 Loose Leaf
 1
 paper
 1
-Blocks 1 damage
+Loose Leaf: deals 1 damage to your opponent, | Bonus: shields you for 1
+attack
 defend
-3
+1
+2
 ^v^
 Boulder
 1
 rock
 2
-Deals 2 damage to your opponent
+Boulder: Deals 2 damage to your opponent, | Bonus: adds 1 damage to your next rock card
 attack
-4
+addVal
+1
+3
 ^v^
 Pebbles
 0
 rock
 1
-Deals 1 damage to your opponent
+Pebbles: Deals 1 damage to your opponent, | Bonus: adds 1 damage to future Pebbles
 attack
-5
+amp
+1
+4
 ^v^
 Paper Cut
 1
 paper
 1
-Deals 1 damage to your opponent
+Paper Cut: Deals 1 damage to your opponent, | Bonus: all attacks played by the opponent damage them for 1
 attack
-6
+thorns
+1
+5
 ^v^
 Great Wall of China
-5
+3
 rock
-0
-Gives you damage immunity for one turn
+3
+Great Wall of China: Shields you for 3, | Bonus: makes you immune for the rest of the turn
+shield
 giveImmunity
-7
+0
+6
 ^v^
 Safety Scissors
 1
 scissor
 1
-Deals 1 damage to your opponent
+Safety Scissors: Deals 1 damage to your opponent, | Bonus: shields you for 1
 attack
-8
+shield
+1
+7
 ^v^
 Guillotine
 3
 scissor
 5
-Deals 5 damage to your opponent
+Guillotine: Deals 5 damage to your opponent, | Bonus: increases damage of all Guillotine's by 1
 attack
-9
+amp
+1
+8
 ^v^
 Unfiled Paperwork
 3
 paper
-0
-Removes an opponents immunity
+4
+Unfiled Paperwork: Shields you for 4, | Bonus: Removes an opponents immunity
+shield
 takeImmunity
+0
+11
+^v^
+Brick Wall
+3
+rock
+3
+Brick Wall: Shields you for 3, | Bonus: deals 1 damage to your opponent
+shield
+attack
+1
 10
 ^v^

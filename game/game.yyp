@@ -37,7 +37,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.14.1.210",
+    "IDEVersion":"2024.14.0.207",
   },
   "name":"game",
   "resources":[
@@ -87,11 +87,11 @@
     {"id":{"name":"WordWrapScr","path":"scripts/WordWrapScr/WordWrapScr.yy",},},
     {"id":{"name":"MenuMusic","path":"sounds/MenuMusic/MenuMusic.yy",},},
     {"id":{"name":"BattleRoomSprites","path":"sprites/BattleRoomSprites/BattleRoomSprites.yy",},},
-    {"id":{"name":"CardSlotSpr","path":"sprites/CardSlotSpr/CardSlotSpr.yy",},},
     {"id":{"name":"faith_spark_background1","path":"sprites/faith_spark_background1/faith_spark_background1.yy",},},
     {"id":{"name":"sprBox","path":"sprites/sprBox/sprBox.yy",},},
     {"id":{"name":"sprBWButton","path":"sprites/sprBWButton/sprBWButton.yy",},},
     {"id":{"name":"sprCardSlot","path":"sprites/sprCardSlot/sprCardSlot.yy",},},
+    {"id":{"name":"sprCardSlotOld","path":"sprites/sprCardSlotOld/sprCardSlotOld.yy",},},
     {"id":{"name":"sprInkBlot","path":"sprites/sprInkBlot/sprInkBlot.yy",},},
     {"id":{"name":"sprInvSlot","path":"sprites/sprInvSlot/sprInvSlot.yy",},},
     {"id":{"name":"sprMakeDeckButton","path":"sprites/sprMakeDeckButton/sprMakeDeckButton.yy",},},

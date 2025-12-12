@@ -17,7 +17,7 @@ if (itemDrag != -1) {
 		draw_rectangle(0, 200, 0 + 200, 200 + 200, false);
 		draw_set_font(TxtFont);
 		draw_set_colour(c_white);
-		var cardTxt = WordWrapScr(/*global.cardData.cardInfo[invHover.inv[slotHover]].description*/"This is just one big long elaborate test so I really hope this works out", 200, "\n", false);
+		var cardTxt = WordWrapScr(global.cardData.cardInfo[invHover.inv[slotHover]].description, 200, "\n", false);
 		draw_text(0 + 5, 200, cardTxt);
 	}
 }

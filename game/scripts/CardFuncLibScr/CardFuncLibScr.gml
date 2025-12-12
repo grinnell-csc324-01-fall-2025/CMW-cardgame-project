@@ -94,6 +94,10 @@ function giveImmunity(_player) {
 	_player.immunity = true;
 }
 
+function takeImmunity(_player) {
+	_player.immunity = false;	
+}
+
 function cheatValChange(_player, cheat, _cType) {
 	switch (_cType) {
 		case "rock":
@@ -151,3 +155,6 @@ function multValChange(_player, _val, _cType) {
 	}
 }
 
+function amp(_card, _val) {
+	_card.val += _val;
+}
