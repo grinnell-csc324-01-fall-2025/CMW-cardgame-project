@@ -24,7 +24,7 @@ paper
 1
 Loose Leaf: deals 1 damage to your opponent, | Bonus: shields you for 1
 attack
-defend
+shield
 1
 2
 ^v^

@@ -91,7 +91,7 @@ function cardEffects(_card, _player, func, _val) {
 				attack(_player, targetPlayer, _val, _card.cType);
 			break;
 		
-			case "defend":
+			case "shield":
 				defend(_player, _val);
 			break;
 		
