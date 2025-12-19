@@ -13,6 +13,7 @@ function player(_name) constructor {
 	scissorMult = 1;
 	paperAdd = 0;
 	paperMult = 1;
+	thorns = false;
 	
 	changeHP = function(newHP) {
 		hp = newHP;
@@ -26,14 +27,17 @@ function manaCheat(_player, _card) {
 	switch(_card.cType) {
 		case "rock":
 			ret -= _player.rockCheat;
+			_player.rockCheat = 0;
 		break;
 		
 		case "scissor":
 			ret -= _player.scissorCheat;
+			_player.scissorCheat = 0;
 		break;
 		
 		case "paper":
 			ret -= _player.paperCheat;
+			_player.paperCheat = 0;
 		break;
 		
 		default:
@@ -48,17 +52,23 @@ function attack(_player, targetPlayer, dmg, _cType){
 	switch (_cType) {
 		case "rock":
 			dmgVal += _player.rockAdd;
+			_player.rockAdd = 0;
 			dmgVal *= _player.rockMult;
+			_player.rockMult = 1;
 		break;
 		
 		case "scissor":
 			dmgVal += _player.scissorAdd;
+			_player.scissorAdd = 0;
 			dmgVal *= _player.scissorMult;
+			_player.scissorMult = 1;
 		break;
 		
 		case "paper":
 			dmgVal += _player.paperAdd;
+			_player.paperAdd = 0;
 			dmgVal *= _player.paperMult;
+			_player.paperMult = 1;
 		break;
 		
 		default:
@@ -80,6 +90,9 @@ function attack(_player, targetPlayer, dmg, _cType){
 		}
 	}
 	targetPlayer.hp -= dmgVal;
+	if(_player.thorns) {
+		_player.hp -= 1;	
+	}
 }
 
 function defend(_player, shield) {

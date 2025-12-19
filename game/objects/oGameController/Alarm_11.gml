@@ -16,6 +16,12 @@ for (var i = 0; i < played.invSlots; i++) {
 player_1.mana = 3;
 player_2.mana = 3;
 
+player_1.immunity = false;
+player_2.immunity = false;
+
+player_1.thorns = false;
+player_2.thorns = false;
+
 for (var i = 0; i < 3; i++) {
 	time_source_start(myTimer);
 }

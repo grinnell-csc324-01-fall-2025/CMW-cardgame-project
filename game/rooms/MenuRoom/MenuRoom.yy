@@ -12,6 +12,7 @@
     {"name":"inst_64BBA2AC","path":"rooms/MenuRoom/MenuRoom.yy",},
     {"name":"inst_135F2F","path":"rooms/MenuRoom/MenuRoom.yy",},
     {"name":"inst_507D7BEF","path":"rooms/MenuRoom/MenuRoom.yy",},
+    {"name":"inst_55A03329","path":"rooms/MenuRoom/MenuRoom.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -24,6 +25,7 @@
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"oTitleParent","path":"objects/oTitleParent/oTitleParent.yy",},"propertyId":{"name":"TitleText","path":"objects/oTitleParent/oTitleParent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"RPS RUMBLE",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":672.0,"y":96.0,},
         {"$GMRInstance":"v4","%Name":"inst_507D7BEF","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_507D7BEF","objectId":{"name":"oSoundCtrl","path":"objects/oSoundCtrl/oSoundCtrl.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":160.0,"y":96.0,},
+        {"$GMRInstance":"v4","%Name":"inst_55A03329","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_55A03329","objectId":{"name":"oCardDataWizard","path":"objects/oCardDataWizard/oCardDataWizard.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":96.0,"y":96.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":{"name":"faith_spark_background1","path":"sprites/faith_spark_background1/faith_spark_background1.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],
