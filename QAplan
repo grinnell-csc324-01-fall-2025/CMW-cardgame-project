@@ -1,0 +1,36 @@
+Main room:
+- Test to make sure all buttons on main menu work, except for quit save this for later.
+- Enter Deck room
+Deck room:
+- Make sure all buttons work in deck room, including back button then re enter deck room
+- Enter deckbuilder room 1.
+Deckbuilder rooms 1-3:
+- Check to make sure all cards appear
+- Hover over all cards and make sure card descriptions are correct
+- Drag each card into the player deck inventory and then return it to the total card inventory
+- Try saving deck with player deck being empty, full, and partially full.
+- Try to save the deck name.
+- Check to see if back button is working and at this time check to make sure name is above deck in deck room.
+- Go to next Deckbuilder room, if all rooms have been checked return to all rooms in a random order and press the save button, remember which deck was the last one saved and make sure to add cards with immunity, amp, mana cheat, and thorns effects to the deck.
+- Return to Main Menu and enter settings room
+Settings Room:
+- make sure mute button actually mutes
+- check to see if back button is working, if so move on to play room
+Play Room:
+- Check to make sure cards in your deck are the ones from the last deck you saved
+- Check GUI, make sure everything looks okay at start of game
+- Check hand drawing, make sure cards are drawing with time between draws.
+- Hover all cards in hand and make sure their descriptions are correct
+- Drag all cards from inventory to playing field and play hand, check to see if values for either player are updated correctly
+- When checking values, make sure that any cards that exceeded the mana count were not applied, if they were, its wrong.
+- Play a hand with one card and two cards, check values to make sure updated properly
+- Play an empty hand and make sure nothing is updated outside of cards in hand
+- Play hands with all cards against cards they win RPS to, make sure bonus functions are applying correctly
+- Play card against cards they win RPS to but in different slots, make sure bonus functions aren't applying since cards aren't played directly against one another.
+- If you haven't already, check to make sure immunity is being applied properly, also make sure it is taken away properly at the end of a turn
+- If you haven't already, check to make sure amp is applying properly, it should only increase the value by 1 for every played amp card, if it doesn't its wrong.
+- If you haven't already check to make sure thorns is working properly, try this with opponent playing 1, 2, and 3 cards and make sure correct damage is dealt, also make sure thorns is taken away at end of turn.
+- If you haven't already check to make sure the mana cheating is working properly, this is easiest when just playing the mana cheat card and one other card, as mana count briefly changes, make sure this count is correct with the cheat applied.
+- At this point you may finish the game, play whatever cards you want to reduce one player to 0 hp, make sure this properly returns us to the main menu.
+
+If you made it this far and nothing broke while you were doing it, congratulations! The current build should be working!
