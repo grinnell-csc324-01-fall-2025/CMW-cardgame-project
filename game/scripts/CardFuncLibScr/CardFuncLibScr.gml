@@ -93,18 +93,22 @@ function attack(_player, targetPlayer, dmg, _cType){
 	if(_player.thorns) {
 		_player.hp -= 1;	
 	}
+	return targetPlayer.hp;
 }
 
 function defend(_player, shield) {
 	_player.shield += shield;
+	return _player.shield;
 }
 
 function heal(_player, healing) {
 	_player.hp += healing;
+	return _player.hp;
 }
 
 function giveImmunity(_player) {
 	_player.immunity = true;
+	return _player.immunity;
 }
 
 function takeImmunity(_player) {

@@ -8,8 +8,8 @@
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"oTitleParent","path":"objects/oTitleParent/oTitleParent.yy",},"propertyId":{"name":"TitleText","path":"objects/oTitleParent/oTitleParent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"RPS RUMBLE",},
   ],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Misc",
+    "path":"folders/Objects/Misc.yy",
   },
   "parentObjectId":{
     "name":"oTitleParent",

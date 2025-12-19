@@ -3,8 +3,8 @@
   "%Name":"MagicNumbers",
   "name":"MagicNumbers",
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Misc",
+    "path":"folders/Objects/Misc.yy",
   },
   "resourceType":"GMNotes",
   "resourceVersion":"2.0",
